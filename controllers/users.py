@@ -17,7 +17,7 @@ def get_all_users(user_service, response_handler):
     # kun käytämme service-patternia,
     # servicea kutsutaan controllerista
     # ja servicen alle kätketään kaikki muu logiikka
-    # tässä tapauksessa kaksi eri responsea
+    # tässä tapauksessa kaksi eri repoa
 
     # näin mahdollinen monimutkainen logiikka pysyy piilossa ja poissa controllerista
     users = user_service.get_all()
